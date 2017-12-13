@@ -18,11 +18,25 @@ class ViewController: UIViewController {
     @IBAction func submit(_ sender: UIButton) {
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Shuffle Array
+        if(GameState.categoryPointer == 0){
+            for _ in GameState.categories["random"]!{
+                // generate random indexes that will be swapped
+                var (a, b) = (Int(arc4random_uniform(UInt32(GameState.categories["random"]!.count - 1))), Int(arc4random_uniform(UInt32(GameState.categories["random"]!.count - 1))))
+                if a == b { // if the same indexes are generated swap the first and last
+                    a = 0
+                    b = GameState.categories["random"]!.count - 1
+                }
+                GameState.categories["random"]!.swapAt(a, b)
+            }
+        }
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

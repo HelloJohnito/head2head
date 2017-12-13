@@ -12,6 +12,13 @@ class ViewController5: UIViewController {
 
     @IBOutlet weak var displayTeam: UILabel!
     
+    @IBOutlet weak var displayTeam1: UILabel!
+    @IBOutlet weak var displayTeam1Points: UILabel!
+    @IBOutlet weak var displayTeam2: UILabel!
+    @IBOutlet weak var displayTeam2Points: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,14 +26,19 @@ class ViewController5: UIViewController {
         var teamTwoPoints = Int(GameState.teamTwo["points"]!)!
         
         if(teamOnePoints > teamTwoPoints){
-            displayTeam.text = GameState.teamOne["name"]
+            displayTeam.text = GameState.teamOne["name"]! + " wins!"
         }
         else if (teamTwoPoints > teamOnePoints) {
-            displayTeam.text = GameState.teamTwo["name"]
+            displayTeam.text = GameState.teamTwo["name"]! + " wins!"
         }
         else {
             displayTeam.text = "TIE"
         }
+        
+        displayTeam1.text = GameState.teamOne["name"]
+        displayTeam1Points.text = GameState.teamOne["points"]
+        displayTeam2.text = GameState.teamTwo["name"]
+        displayTeam2Points.text = GameState.teamTwo["points"]
         
     }
 

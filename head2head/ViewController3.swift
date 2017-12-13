@@ -19,8 +19,26 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        word.text = GameState.categories["random"]![GameState.categoryPointer]
+        
+        if(GameState.categoryPointer + 1 == GameState.categories["random"]!.count){
+            GameState.categoryPointer = 0
+            
+            for _ in GameState.categories["random"]!{
+                // generate random indexes that will be swapped
+                var (a, b) = (Int(arc4random_uniform(UInt32(GameState.categories["random"]!.count - 1))), Int(arc4random_uniform(UInt32(GameState.categories["random"]!.count - 1))))
+                if a == b { // if the same indexes are generated swap the first and last
+                    a = 0
+                    b = GameState.categories["random"]!.count - 1
+                }
+                GameState.categories["random"]!.swapAt(a, b)
+            }
+        } else {
+            GameState.categoryPointer += 1
+        }
+        
         displayRound.text = String((GameState.turnNumber + 1)/2)
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)        
     }
     
     @objc func processTimer(){
