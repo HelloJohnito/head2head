@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         let value = UIInterfaceOrientation.landscapeLeft.rawValue
         UIDevice.current.setValue(value, forKey: "orientation")
         
+        
+        restartGame()
+        
+        print(GameState.teamOne["name"])
         // Shuffle Array
         if(GameState.categoryPointer == 0){
             for _ in GameState.categories["random"]!{
@@ -57,6 +61,14 @@ class ViewController: UIViewController {
         if(teamTwo.text! != "") {
             GameState.teamTwo["name"] = teamTwo.text!
         }
+    }
+    
+    func restartGame(){
+        GameState.teamOne["name"] = "Team1"
+        GameState.teamOne["points"] = "0"
+        GameState.teamTwo["name"] = "Team2"
+        GameState.teamTwo["points"] = "0"
+        GameState.turnNumber = 1
     }
 
 

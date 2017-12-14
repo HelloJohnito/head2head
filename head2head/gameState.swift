@@ -10,8 +10,8 @@ import Foundation
 
 
 struct GameState {
-    static var teamOne = ["name": "Team1", "points": "0", "color": "4BBBEB"]
-    static var teamTwo = ["name": "Team2", "points": "0", "color": "F25703"]
+    static var teamOne = ["name": "Team1", "points": "0"]
+    static var teamTwo = ["name": "Team2", "points": "0"]
     static var turnNumber = 1
     static var sessionTimeout = false
     static var categoryPointer = 0
