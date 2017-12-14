@@ -19,6 +19,29 @@
 		94C7C9981FE0AD7E00E46528 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7C9971FE0AD7E00E46528 /* ViewController3.swift */; };
 		94F1B6081FE1AA7400018FFC /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B6071FE1AA7400018FFC /* ViewController4.swift */; };
 		94F1B60A1FE1BBEA00018FFC /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B6091FE1BBEA00018FFC /* ViewController5.swift */; };
+		94F1B7B41FE1F8C300018FFC /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B79F1FE1F8C300018FFC /* GameOver.png */; };
+		94F1B7B51FE1F8C300018FFC /* GoodJobB.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A01FE1F8C300018FFC /* GoodJobB.png */; };
+		94F1B7B61FE1F8C300018FFC /* GoodJobO.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A11FE1F8C300018FFC /* GoodJobO.png */; };
+		94F1B7B71FE1F8C300018FFC /* GoodJobW.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A21FE1F8C300018FFC /* GoodJobW.png */; };
+		94F1B7B81FE1F8C300018FFC /* GOTIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A31FE1F8C300018FFC /* GOTIT.png */; };
+		94F1B7B91FE1F8C300018FFC /* GOTITB.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A41FE1F8C300018FFC /* GOTITB.png */; };
+		94F1B7BA1FE1F8C300018FFC /* H2H.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A51FE1F8C300018FFC /* H2H.png */; };
+		94F1B7BB1FE1F8C300018FFC /* H2HW.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A61FE1F8C300018FFC /* H2HW.png */; };
+		94F1B7BC1FE1F8C300018FFC /* HeadLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A71FE1F8C300018FFC /* HeadLogo.png */; };
+		94F1B7BD1FE1F8C300018FFC /* HeadLogoR.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A81FE1F8C300018FFC /* HeadLogoR.png */; };
+		94F1B7BE1FE1F8C300018FFC /* HW2H.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7A91FE1F8C300018FFC /* HW2H.png */; };
+		94F1B7BF1FE1F8C300018FFC /* IGOTIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AA1FE1F8C300018FFC /* IGOTIT.png */; };
+		94F1B7C01FE1F8C300018FFC /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AB1FE1F8C300018FFC /* Logo.jpeg */; };
+		94F1B7C11FE1F8C300018FFC /* Restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AC1FE1F8C300018FFC /* Restart.png */; };
+		94F1B7C21FE1F8C300018FFC /* Smaato.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AD1FE1F8C300018FFC /* Smaato.png */; };
+		94F1B7C31FE1F8C300018FFC /* smaato.svg in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AE1FE1F8C300018FFC /* smaato.svg */; };
+		94F1B7C41FE1F8C300018FFC /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7AF1FE1F8C300018FFC /* Start.png */; };
+		94F1B7C51FE1F8C300018FFC /* Team1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7B01FE1F8C300018FFC /* Team1.png */; };
+		94F1B7C61FE1F8C300018FFC /* Team2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7B11FE1F8C300018FFC /* Team2.png */; };
+		94F1B7C71FE1F8C300018FFC /* TimeOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7B21FE1F8C300018FFC /* TimeOut.png */; };
+		94F1B7C81FE1F8C300018FFC /* Winner.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7B31FE1F8C300018FFC /* Winner.png */; };
+		94F1B7CA1FE1FFA100018FFC /* HW2HW.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B7C91FE1FFA100018FFC /* HW2HW.png */; };
+		94F1B7CC1FE200B600018FFC /* ViewControllerTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B7CB1FE200B600018FFC /* ViewControllerTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +80,29 @@
 		94C7C9971FE0AD7E00E46528 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		94F1B6071FE1AA7400018FFC /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		94F1B6091FE1BBEA00018FFC /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		94F1B79F1FE1F8C300018FFC /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
+		94F1B7A01FE1F8C300018FFC /* GoodJobB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodJobB.png; sourceTree = "<group>"; };
+		94F1B7A11FE1F8C300018FFC /* GoodJobO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodJobO.png; sourceTree = "<group>"; };
+		94F1B7A21FE1F8C300018FFC /* GoodJobW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodJobW.png; sourceTree = "<group>"; };
+		94F1B7A31FE1F8C300018FFC /* GOTIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOTIT.png; sourceTree = "<group>"; };
+		94F1B7A41FE1F8C300018FFC /* GOTITB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GOTITB.png; sourceTree = "<group>"; };
+		94F1B7A51FE1F8C300018FFC /* H2H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H2H.png; sourceTree = "<group>"; };
+		94F1B7A61FE1F8C300018FFC /* H2HW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H2HW.png; sourceTree = "<group>"; };
+		94F1B7A71FE1F8C300018FFC /* HeadLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadLogo.png; sourceTree = "<group>"; };
+		94F1B7A81FE1F8C300018FFC /* HeadLogoR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadLogoR.png; sourceTree = "<group>"; };
+		94F1B7A91FE1F8C300018FFC /* HW2H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HW2H.png; sourceTree = "<group>"; };
+		94F1B7AA1FE1F8C300018FFC /* IGOTIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IGOTIT.png; sourceTree = "<group>"; };
+		94F1B7AB1FE1F8C300018FFC /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpeg; sourceTree = "<group>"; };
+		94F1B7AC1FE1F8C300018FFC /* Restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restart.png; sourceTree = "<group>"; };
+		94F1B7AD1FE1F8C300018FFC /* Smaato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smaato.png; sourceTree = "<group>"; };
+		94F1B7AE1FE1F8C300018FFC /* smaato.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smaato.svg; sourceTree = "<group>"; };
+		94F1B7AF1FE1F8C300018FFC /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		94F1B7B01FE1F8C300018FFC /* Team1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Team1.png; sourceTree = "<group>"; };
+		94F1B7B11FE1F8C300018FFC /* Team2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Team2.png; sourceTree = "<group>"; };
+		94F1B7B21FE1F8C300018FFC /* TimeOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeOut.png; sourceTree = "<group>"; };
+		94F1B7B31FE1F8C300018FFC /* Winner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Winner.png; sourceTree = "<group>"; };
+		94F1B7C91FE1FFA100018FFC /* HW2HW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HW2HW.png; sourceTree = "<group>"; };
+		94F1B7CB1FE200B600018FFC /* ViewControllerTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +153,9 @@
 		94C7C9621FE0842000E46528 /* head2head */ = {
 			isa = PBXGroup;
 			children = (
+				94F1B79E1FE1F8C300018FFC /* Graphics */,
 				94C7C9631FE0842000E46528 /* AppDelegate.swift */,
+				94F1B7CB1FE200B600018FFC /* ViewControllerTitle.swift */,
 				94C7C9651FE0842000E46528 /* ViewController.swift */,
 				94C7C9951FE09F5900E46528 /* ViewController2.swift */,
 				94C7C9971FE0AD7E00E46528 /* ViewController3.swift */,
@@ -138,6 +186,35 @@
 				94C7C9851FE0842100E46528 /* Info.plist */,
 			);
 			path = head2headUITests;
+			sourceTree = "<group>";
+		};
+		94F1B79E1FE1F8C300018FFC /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				94F1B7C91FE1FFA100018FFC /* HW2HW.png */,
+				94F1B79F1FE1F8C300018FFC /* GameOver.png */,
+				94F1B7A01FE1F8C300018FFC /* GoodJobB.png */,
+				94F1B7A11FE1F8C300018FFC /* GoodJobO.png */,
+				94F1B7A21FE1F8C300018FFC /* GoodJobW.png */,
+				94F1B7A31FE1F8C300018FFC /* GOTIT.png */,
+				94F1B7A41FE1F8C300018FFC /* GOTITB.png */,
+				94F1B7A51FE1F8C300018FFC /* H2H.png */,
+				94F1B7A61FE1F8C300018FFC /* H2HW.png */,
+				94F1B7A71FE1F8C300018FFC /* HeadLogo.png */,
+				94F1B7A81FE1F8C300018FFC /* HeadLogoR.png */,
+				94F1B7A91FE1F8C300018FFC /* HW2H.png */,
+				94F1B7AA1FE1F8C300018FFC /* IGOTIT.png */,
+				94F1B7AB1FE1F8C300018FFC /* Logo.jpeg */,
+				94F1B7AC1FE1F8C300018FFC /* Restart.png */,
+				94F1B7AD1FE1F8C300018FFC /* Smaato.png */,
+				94F1B7AE1FE1F8C300018FFC /* smaato.svg */,
+				94F1B7AF1FE1F8C300018FFC /* Start.png */,
+				94F1B7B01FE1F8C300018FFC /* Team1.png */,
+				94F1B7B11FE1F8C300018FFC /* Team2.png */,
+				94F1B7B21FE1F8C300018FFC /* TimeOut.png */,
+				94F1B7B31FE1F8C300018FFC /* Winner.png */,
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +324,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F1B7B51FE1F8C300018FFC /* GoodJobB.png in Resources */,
+				94F1B7B91FE1F8C300018FFC /* GOTITB.png in Resources */,
+				94F1B7BB1FE1F8C300018FFC /* H2HW.png in Resources */,
+				94F1B7BF1FE1F8C300018FFC /* IGOTIT.png in Resources */,
+				94F1B7C11FE1F8C300018FFC /* Restart.png in Resources */,
+				94F1B7C31FE1F8C300018FFC /* smaato.svg in Resources */,
 				94C7C96E1FE0842000E46528 /* LaunchScreen.storyboard in Resources */,
+				94F1B7B61FE1F8C300018FFC /* GoodJobO.png in Resources */,
+				94F1B7CA1FE1FFA100018FFC /* HW2HW.png in Resources */,
+				94F1B7C81FE1F8C300018FFC /* Winner.png in Resources */,
+				94F1B7BD1FE1F8C300018FFC /* HeadLogoR.png in Resources */,
+				94F1B7C51FE1F8C300018FFC /* Team1.png in Resources */,
+				94F1B7BE1FE1F8C300018FFC /* HW2H.png in Resources */,
+				94F1B7B81FE1F8C300018FFC /* GOTIT.png in Resources */,
+				94F1B7BC1FE1F8C300018FFC /* HeadLogo.png in Resources */,
+				94F1B7B71FE1F8C300018FFC /* GoodJobW.png in Resources */,
+				94F1B7C71FE1F8C300018FFC /* TimeOut.png in Resources */,
+				94F1B7C21FE1F8C300018FFC /* Smaato.png in Resources */,
+				94F1B7C41FE1F8C300018FFC /* Start.png in Resources */,
+				94F1B7BA1FE1F8C300018FFC /* H2H.png in Resources */,
+				94F1B7C61FE1F8C300018FFC /* Team2.png in Resources */,
+				94F1B7B41FE1F8C300018FFC /* GameOver.png in Resources */,
 				94C7C96B1FE0842000E46528 /* Assets.xcassets in Resources */,
+				94F1B7C01FE1F8C300018FFC /* Logo.jpeg in Resources */,
 				94C7C9691FE0842000E46528 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +378,7 @@
 				94C7C9661FE0842000E46528 /* ViewController.swift in Sources */,
 				94C7C9961FE09F5900E46528 /* ViewController2.swift in Sources */,
 				94C7C9921FE097E100E46528 /* gameState.swift in Sources */,
+				94F1B7CC1FE200B600018FFC /* ViewControllerTitle.swift in Sources */,
 				94C7C9641FE0842000E46528 /* AppDelegate.swift in Sources */,
 				94F1B60A1FE1BBEA00018FFC /* ViewController5.swift in Sources */,
 			);
