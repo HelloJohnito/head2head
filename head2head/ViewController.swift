@@ -22,6 +22,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Rotate to Landscape
+        func shouldAutorotate() -> Bool {
+            return true
+        }
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        
         // Shuffle Array
         if(GameState.categoryPointer == 0){
             for _ in GameState.categories["random"]!{

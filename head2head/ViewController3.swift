@@ -42,6 +42,7 @@ class ViewController3: UIViewController {
         
         displayRound.text = String((GameState.turnNumber + 1)/2)
         
+        // set background color and image depending on user
         if(GameState.turnNumber % 2 == 0) {
             self.view.backgroundColor = UIColorFromHex(rgbValue: 0xF25703,alpha: 1)
             gotItButton.setImage(UIImage(named: "GOTITB.png"), for: [])
@@ -50,6 +51,7 @@ class ViewController3: UIViewController {
             self.view.backgroundColor = UIColorFromHex(rgbValue: 0x4BBBEB,alpha: 1)
             gotItButton.setImage(UIImage(named: "GOTIT.png"), for: [])
         }
+        
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)        
     }
@@ -82,6 +84,7 @@ class ViewController3: UIViewController {
         
         GameState.sessionTimeout = (time == 0) ? true : false
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

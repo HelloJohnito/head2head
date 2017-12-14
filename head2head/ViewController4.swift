@@ -46,13 +46,11 @@ class ViewController4: UIViewController {
     @objc func processTimer(){
         if(time == 0) {
             timer.invalidate()
-            
             if((GameState.turnNumber - 1) == 6){
                 self.performSegue(withIdentifier: "goFive", sender: self)
             } else {
                 self.performSegue(withIdentifier: "goTwo", sender: self)
             }
-            
         } else {
             time -= 1
         }
@@ -63,7 +61,6 @@ class ViewController4: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     
     func UIColorFromHex(rgbValue:UInt32, alpha:Double=1.0)->UIColor {

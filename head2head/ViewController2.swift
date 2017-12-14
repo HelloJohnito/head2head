@@ -17,17 +17,6 @@ class ViewController2: UIViewController {
     @IBOutlet weak var displayTimer: UILabel!
     @IBOutlet weak var teamName: UILabel!
     
-    @objc func processTimer() {
-        if time == 1 {
-            timer.invalidate()
-            self.performSegue(withIdentifier: "goThree", sender: self)
-        }
-        else{
-            time -= 1
-            displayTimer.text = String(time)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,7 +33,17 @@ class ViewController2: UIViewController {
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(processTimer), userInfo: nil, repeats: true)
     }
-
+    
+    @objc func processTimer() {
+        if time == 1 {
+            timer.invalidate()
+            self.performSegue(withIdentifier: "goThree", sender: self)
+        }
+        else{
+            time -= 1
+            displayTimer.text = String(time)
+        }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
