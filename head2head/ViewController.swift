@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var teamOne: UITextField!
@@ -70,7 +70,17 @@ class ViewController: UIViewController {
         GameState.teamTwo["points"] = "0"
         GameState.turnNumber = 1
     }
-
+    
+    
+    //keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true) // close keyboard when user touches outside the keyboard.
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 
 }
 
